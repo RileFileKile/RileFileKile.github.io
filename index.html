@@ -13,15 +13,12 @@
     <!-- <img src="img/bb.png" alt="image" class="logo"> -->
     <h1>Simple Calculator</h1>
   
-  <label for="X+Y">Number 1:</label>
+  <label for="num1">Number 1:</label>
   <input type="number" id="num1">
   
-  <label for="X+Z">Number 2:</label>
+  <label for="num2">Number 2:</label>
   <input type="number" id="num2">
-
-  <label for="Y+Z">number 3:</label>
-  <input type="number" id="num3"
-
+  
   <button onclick="addNumbers()">Add</button>
   
   <p id="result"></p>
@@ -30,14 +27,22 @@
     function addNumbers() {
       var num1 = parseFloat(document.getElementById("num1").value);
       var num2 = parseFloat(document.getElementById("num2").value);
-      var num3 = parseFloat(document.getElementById("num3").value);
       
-      var Temp = (num1 + num2 + num3)/2
-      var X = temp - parseFloat(document.getElementById("num1").value);
-      var Y = temp - parseFloat(document.getElementById("num2").value);
-      var Z = temp - parseFloat(document.getElementById("num3").value);
+      var sum = num1 + num2;
       
-      document.getElementById("result").innerText = "Result X: " + X + "Result Y: " + Y + "Result Z: " + Z +;
+      document.getElementById("result").innerText = "Result: " + sum;
     }
+  </script>
+    <h1>Change Background Color</h1>
+  
+    <button onclick="changeBackground('red')">Red</button>
+    <button onclick="changeBackground('blue')">Blue</button>
+    <button onclick="changeBackground('green')">Green</button>
+    
+    <script>
+      function changeBackground(color) {
+        document.body.style.backgroundColor = color;
+      }
+    </script>
 </body>
 </html>
