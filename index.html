@@ -33,5 +33,16 @@
       document.getElementById("result").innerText = "Result: " + sum;
     }
   </script>
+    <h1>Change Background Color</h1>
+  
+    <button onclick="changeBackground('red')">Red</button>
+    <button onclick="changeBackground('blue')">Blue</button>
+    <button onclick="changeBackground('green')">Green</button>
+    
+    <script>
+      function changeBackground(color) {
+        document.body.style.backgroundColor = color;
+      }
+    </script>
 </body>
 </html>
