@@ -7,3 +7,6 @@ html {
 img.logo {
     max-width: 100%;
 }
+#result {
+    color: aliceblue;
+}
