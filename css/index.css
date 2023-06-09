@@ -2,7 +2,7 @@ h1 {
     color: white;
 }
 html {
-    background-color: rgb(100, 200, 255);
+    background-color:#070A52
 }
 #result {
     color: aliceblue;
@@ -10,4 +10,8 @@ html {
 body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color: #ED2B2A
+}
+h1.redish{
+    color:  #D21312
 }
