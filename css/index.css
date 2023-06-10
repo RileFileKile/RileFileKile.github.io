@@ -13,5 +13,6 @@ body {
     color: #40128B
 }
 h1.redish{
-    color:  #40128B
+    color:  #40128B;
+    font-family:cursive;
 }
