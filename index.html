@@ -26,7 +26,9 @@
 
   <button onclick="addNumbers()">Calculate</button>
  
-  <p id="result"></p>
+  <p id="resultx">result X:</p>
+  <p id="resulty">result Y:</p>
+  <p id="resultz">result Z:</p>
 
   <script>
     function addNumbers() {
@@ -38,7 +40,9 @@
       var Y = temp - parseFloat(document.getElementById("num2").value);
       var Z = temp - parseFloat(document.getElementById("num3").value);
      
-      document.getElementById("result").innerText = ("test")
+      document.getElementById("resultx").innerText = (X)
+      document.getElementById("resulty").innerText = (Y)
+      document.getElementById("resultz").innerText = (Z)
     }
   </script>
 </body>
